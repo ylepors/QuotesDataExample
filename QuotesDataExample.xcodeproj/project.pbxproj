@@ -20,6 +20,8 @@
 		A876D658198BC9DC00328399 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A876D656198BC9DC00328399 /* InfoPlist.strings */; };
 		A876D65A198BC9DC00328399 /* QuotesDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A876D659198BC9DC00328399 /* QuotesDataExampleTests.m */; };
 		A8D5FDDD198BCB950068C303 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A8D5FDDC198BCB950068C303 /* README.md */; };
+		A8D5FDE6198BCED00068C303 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D5FDE4198BCED00068C303 /* MasterViewController.m */; };
+		A8D5FDE7198BCED00068C303 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D5FDE5198BCED00068C303 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		A876D657198BC9DC00328399 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A876D659198BC9DC00328399 /* QuotesDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotesDataExampleTests.m; sourceTree = "<group>"; };
 		A8D5FDDC198BCB950068C303 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A8D5FDE3198BCED00068C303 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		A8D5FDE4198BCED00068C303 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		A8D5FDE5198BCED00068C303 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasterViewController.xib; path = ../MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 		A876D632198BC9DC00328399 /* QuotesDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				A8D5FDE3198BCED00068C303 /* MasterViewController.h */,
+				A8D5FDE4198BCED00068C303 /* MasterViewController.m */,
+				A8D5FDE5198BCED00068C303 /* MasterViewController.xib */,
 				A876D63E198BC9DC00328399 /* AppDelegate.h */,
 				A876D63F198BC9DC00328399 /* AppDelegate.m */,
 				A876D641198BC9DC00328399 /* MainMenu.xib */,
@@ -238,6 +246,7 @@
 			files = (
 				A876D637198BC9DC00328399 /* InfoPlist.strings in Resources */,
 				A876D648198BC9DC00328399 /* Images.xcassets in Resources */,
+				A8D5FDE7198BCED00068C303 /* MasterViewController.xib in Resources */,
 				A8D5FDDD198BCB950068C303 /* README.md in Resources */,
 				A876D63D198BC9DC00328399 /* Credits.rtf in Resources */,
 				A876D643198BC9DC00328399 /* MainMenu.xib in Resources */,
@@ -259,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D5FDE6198BCED00068C303 /* MasterViewController.m in Sources */,
 				A876D640198BC9DC00328399 /* AppDelegate.m in Sources */,
 				A876D646198BC9DC00328399 /* QuotesDataExample.xcdatamodeld in Sources */,
 				A876D639198BC9DC00328399 /* main.m in Sources */,
