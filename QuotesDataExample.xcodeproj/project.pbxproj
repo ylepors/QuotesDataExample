@@ -19,6 +19,7 @@
 		A876D650198BC9DC00328399 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A876D62C198BC9DC00328399 /* Cocoa.framework */; };
 		A876D658198BC9DC00328399 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A876D656198BC9DC00328399 /* InfoPlist.strings */; };
 		A876D65A198BC9DC00328399 /* QuotesDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A876D659198BC9DC00328399 /* QuotesDataExampleTests.m */; };
+		A8D5FDDD198BCB950068C303 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A8D5FDDC198BCB950068C303 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A876D655198BC9DC00328399 /* QuotesDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuotesDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A876D657198BC9DC00328399 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A876D659198BC9DC00328399 /* QuotesDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotesDataExampleTests.m; sourceTree = "<group>"; };
+		A8D5FDDC198BCB950068C303 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		A876D620198BC9DC00328399 = {
 			isa = PBXGroup;
 			children = (
+				A8D5FDDC198BCB950068C303 /* README.md */,
 				A876D632198BC9DC00328399 /* QuotesDataExample */,
 				A876D653198BC9DC00328399 /* QuotesDataExampleTests */,
 				A876D62B198BC9DC00328399 /* Frameworks */,
@@ -235,6 +238,7 @@
 			files = (
 				A876D637198BC9DC00328399 /* InfoPlist.strings in Resources */,
 				A876D648198BC9DC00328399 /* Images.xcassets in Resources */,
+				A8D5FDDD198BCB950068C303 /* README.md in Resources */,
 				A876D63D198BC9DC00328399 /* Credits.rtf in Resources */,
 				A876D643198BC9DC00328399 /* MainMenu.xib in Resources */,
 			);
@@ -470,6 +474,7 @@
 				A876D65F198BC9DC00328399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A876D660198BC9DC00328399 /* Build configuration list for PBXNativeTarget "QuotesDataExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				A876D662198BC9DC00328399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
